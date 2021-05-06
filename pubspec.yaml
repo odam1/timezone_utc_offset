@@ -1,7 +1,6 @@
 name: timezone_utc_offset
 description: Dart package for getting UTC offsets for timezones
-version: 1.0.0
-author: odamsoft
+version: 1.0.0 
 homepage: https://github.com/odam1/timezone_utc_offset.git
 
 environment:
