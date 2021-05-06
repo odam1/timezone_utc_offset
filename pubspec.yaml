@@ -1,5 +1,5 @@
 name: timezone_utc_offset
-description: Dart package for getting UTC offsets for timezones
+description: A Dart package for getting UTC offsets for timezones. This package is platform agnostic, thus can be used on all platforms that support dart code execution.
 version: 1.0.0 
 homepage: https://github.com/odam1/timezone_utc_offset.git
 

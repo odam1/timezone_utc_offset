@@ -3,14 +3,12 @@ library timezone_utc_offset;
 /// The offset data was pulled from https://github.com/bproctor/timezones
 /// Some offset data was added by crawling the web
 
-
 /// get the UTC time offset from  a timezone name
 Duration? getTimezoneUTCOffset(String timezone, {bool daylight = false}) {
   final offsets = _timezoneUTCOffsets[timezone];
   if (offsets == null) return null;
   return Duration(seconds: daylight ? offsets[1] : offsets[0]);
 }
-
 
 /// timezone UTC offsets
 const Map<String, List<int>> _timezoneUTCOffsets = {
@@ -255,7 +253,7 @@ const Map<String, List<int>> _timezoneUTCOffsets = {
   "Asia/Aqtobe": [18000, 18000],
   "Asia/Ashgabat": [18000, 18000],
   "Asia/Ashkhabad": [18000, 18000],
-  "Asia/Atyrau": [18000,18000],
+  "Asia/Atyrau": [18000, 18000],
   "Asia/Baghdad": [10800, 10800],
   "Asia/Bahrain": [10800, 10800],
   "Asia/Baku": [14400, 18000],
